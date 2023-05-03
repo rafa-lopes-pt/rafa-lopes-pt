@@ -65,7 +65,7 @@
 <p>In my free time I like spend time taking care of my garden where i have lots of plants and trees, i also love mortorcycles and fixing things.</p> 
 <p>I am a hardworking, organized, focused, and determined person. I am self-taught and I enjoy learning new things (especially things that are challenging to learn)</p>
 <br>
-<p>My short term goal is to become a a <strong>full-stack developer<strong>, but what I really would love to do is teach while still developing education related applications. </p>
+<p>My short term goal is to become a a <strong>full-stack developer</strong>, but what I really would love to do is teach while still developing education related applications. </p>
 
 <br>
 
