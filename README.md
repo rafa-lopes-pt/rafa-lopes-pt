@@ -1,6 +1,6 @@
 ### Welcome to my profile 🤸‍♂
 
-[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafael-lopes-frontend-developer/)[![CV](https://img.shields.io/badge/DOWLOAD%20MY%20CV-E34F26?style=for-the-badge&color=red&url=https://drive.google.com/file/d/14v_VkQ3HAfnLcltgsVtZeOgxJAvctO6L/view?usp=share_link?alt=media&token=d6ef8f22-21a7-41e5-8ac7-d8afc5003be6)]
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafael-lopes-frontend-developer/)[![CV](https://img.shields.io/badge/DOWLOAD%20MY%20CV-E34F26?style=for-the-badge&color=red)](https://drive.google.com/file/d/14v_VkQ3HAfnLcltgsVtZeOgxJAvctO6L/view?usp=share_link?alt=media&token=d6ef8f22-21a7-41e5-8ac7-d8afc5003be6)
 
 ## Frontend Technologies
 
@@ -42,7 +42,7 @@
 
 <br>
 
-<img align="center" alt="html5"  src="https://img.shields.io/badge/Firebase-E34F26?style=for-the-badge&color=orange"/>
+<img align="center" alt="html5"  src="https://img.shields.io/badge/Firebase-E34F26?style=for-the-badge&logo=firebase&logoColor=whtie"/>
 
 <br>
 
@@ -52,15 +52,15 @@
 
 <div style="display: inline_block">
 
-<img align="center" alt="html5"  src="https://img.shields.io/badge/Figma-E34F26?style=for-the-badge&color=pink"/>
+<img align="center" alt="html5"  src="https://img.shields.io/badge/Figma-E34F26?style=for-the-badge&color=#e74a1c"/>
 
 <br>
 
-<img align="center" alt="html5"  src="https://img.shields.io/badge/Canva-E34F26?style=for-the-badge&color=purple"/>
+<img align="center" alt="html5"  src="https://img.shields.io/badge/Canva-E34F26?style=for-the-badge&color=#733cd9"/>
 
 <br>
 
-<img align="center" alt="html5"  src="https://img.shields.io/badge/Photoshop-E34F26?style=for-the-badge&color=blue"/>
+<img align="center" alt="html5"  src="https://img.shields.io/badge/Photoshop-E34F26?style=for-the-badge&color=#2f9ff2"/>
 
 <br>
 
@@ -74,4 +74,4 @@ My short term goal is to become a a fullstack developer, but what I really would
 
 ## Send me a message 🙋‍♂️
 
-[![Gmail](https://img.shields.io/badge/Gmail-0078D4?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rafalopessecond@gmail.com) [![Whatsapp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://api.whatsapp.com/send?phone=+351914745806)
+[![Gmail](https://img.shields.io/badge/Gmail-0078D4?style=for-the-badge=red&logo=gmail&logoColor=white)](mailto:rafalopessecond@gmail.com) [![Whatsapp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+351914745806)
