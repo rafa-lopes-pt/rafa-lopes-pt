@@ -14,13 +14,13 @@
 
 <img align="center" style="display:inline" alt="javascript"  src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
 
-<img align="center" style="display:inline" alt="typescript"  src="https://img.shields.io/badge/TypeScript-323330?style=for-the-badge&logo=typescript&logoColor=F7DF1E">
+<img align="center" style="display:inline" alt="typescript"  src="https://img.shields.io/badge/TypeScript-323330?style=for-the-badge&logo=typescript&logoColor=2f74c0">
 
 <img align="center" style="display:inline" alt="html5"  src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
 
 <img align="center" style="display:inline" alt="css"  src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
 
-<img align="center" style="display:inline" alt="Sass"  src="https://img.shields.io/badge/Sass-1572B6?style=for-the-badge&logo=Sass&logoColor=white"/>
+<img align="center" style="display:inline" alt="Sass"  src="https://img.shields.io/badge/Sass-1572B6?style=for-the-badge&&color=c76494&logo=Sass&logoColor=white"/>
 
 <img align="center" style="display:inline" alt="TailwindCSS"  src="https://img.shields.io/badge/TailwindCSS-1572B6?style=for-the-badge&logo=TailwindCSS&logoColor=white"/>
 
@@ -48,11 +48,11 @@
 
 <div style="display: inline_block">
 
-<img align="center" style="display:inline" alt="html5"  src="https://img.shields.io/badge/Figma-E34F26?style=for-the-badge&color=e74a1c"/>
+<img align="center" style="display:inline" alt="Figma"  src="https://img.shields.io/badge/Figma-1572B6?style=for-the-badge&logo=Figma"/>
 
-<img align="center" style="display:inline" alt="html5"  src="https://img.shields.io/badge/Canva-E34F26?style=for-the-badge&color=733cd9"/>
+<img align="center" style="display:inline" alt="Photoshop"  src="https://img.shields.io/badge/Photoshop-1572B6?style=for-the-badge&logo=Photoshop"/>
 
-<img align="center" style="display:inline" alt="html5"  src="https://img.shields.io/badge/Photoshop-E34F26?style=for-the-badge&color=2f9ff2"/>
+<img align="center" style="display:inline" alt="Canva"  src="https://img.shields.io/badge/Camva-1572B6?style=for-the-badge&logo=Camva"/>
 
 </div>
 
