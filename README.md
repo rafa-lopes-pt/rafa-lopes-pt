@@ -48,11 +48,11 @@
 
 <div style="display: inline_block">
 
-<img align="center" style="display:inline" alt="Figma"  src="https://img.shields.io/badge/Figma-1572B6?style=for-the-badge&logo=Figma"/>
+<img align="center" style="display:inline" alt="Figma"  src="https://img.shields.io/badge/Figma-f7f7f7?style=for-the-badge&logo=Figma"/>
 
-<img align="center" style="display:inline" alt="Photoshop"  src="https://img.shields.io/badge/Photoshop-1572B6?style=for-the-badge&logo=Photoshop"/>
+<img align="center" style="display:inline" alt="Photoshop"  src="https://img.shields.io/badge/Adobe-Photoshop-001d34?style=for-the-badge&logo=Adobe-Photoshop"/>
 
-<img align="center" style="display:inline" alt="Canva"  src="https://img.shields.io/badge/Camva-1572B6?style=for-the-badge&logo=Camva"/>
+<img align="center" style="display:inline" alt="Canva"  src="https://img.shields.io/badge/Canva-20232A?style=for-the-badge&logo=Canva"/>
 
 </div>
 
