@@ -59,6 +59,20 @@
 
 <br>
 
+## Productivity Tools
+
+<div style="display: inline_block">
+
+<img align="center" style="display:inline" alt="ChatGPT"  src="https://img.shields.io/badge/ChatGPT-f7f7f7?style=for-the-badge&logo=ChatGPT"/>
+
+<img align="center" style="display:inline" alt="Notion"  src="https://img.shields.io/badge/Notion-001d34?style=for-the-badge&logo=Notion"/>
+
+<img align="center" style="display:inline" alt="Visual Studio Code"  src="https://img.shields.io/badge/Visual Studio Code-20232A?style=for-the-badge&logo=Visual Studio Code"/>
+
+</div>
+
+<br>
+
 ## Who am I?
 
 <p>Hello, my name is Rafael, I am 23 years old and I am a Frontend Developer.</p>
@@ -74,3 +88,7 @@
 [![Gmail](https://img.shields.io/badge/Gmail-0078D4?style=for-the-badge&color=red&logo=gmail&logoColor=white)](mailto:rafalopessecond@gmail.com)
 [![Whatsapp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+351914745806)
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafael-lopes-frontend-developer/)
+
+### Or find me on these communities
+
+[![FCC](https://img.shields.io/badge/FCC-0077B5?style=for-the-badge&logo=fcc&logoColor=white)]
