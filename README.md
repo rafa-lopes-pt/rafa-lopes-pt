@@ -2,6 +2,7 @@
 
 # Welcome to my Github🤸‍♂🏍️🍻🐶🛠 
 
+
 [![Linkedin](https://img.shields.io/badge/LinkedInhttps://www.linkedin.com/in/rafael-lopes-frontend-developer/?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafael-lopes-frontend-developer/)
 [![CV](https://img.shields.io/badge/DOWLOAD%20MY%20CV-E34F26?style=for-the-badge&color=red)](https://drive.google.com/file/d/14v_VkQ3HAfnLcltgsVtZeOgxJAvctO6L/view?usp=share_link?alt=media&token=d6ef8f22-21a7-41e5-8ac7-d8afc5003be6)
 
