@@ -93,6 +93,7 @@
 
 
 <p>Interested? Well let's chat then! I'm eager to meet you :)</p>
+<p>Visit my website to learn more about me, and to find more projects I've worked on!</p>
 
 <br/>
 
