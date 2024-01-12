@@ -7,7 +7,7 @@
 ](https://rafa-lopes.netlify.app/)
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafael-lopes-frontend-developer/)
 [![Static Badge](https://img.shields.io/badge/download%20cv-%23ddd?style=for-the-badge&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABDElEQVR4nO2X%2FQqCQBDE5ylMev8XKf%2BKoBKij6fZEFY4xIv1Wrq15gdLgt6442x2AcTMDsARP4BorR6hkWAwkWgwkWgwkWgwkWgwkWiESESM1Rk0cnQL7lOM9QZ7g0YII6vXkAhNgEaCPU0wkWBPE0zkTxM5AbgAaAs0hjU9gINDHx8L9HrNPWMmp9HqmuHcOYKRBsBVr3sC2Bo0Nsmax8yaar%2Fs78xMNZaa%2BPoWJWcm1SgxUWWvNWdm1Cg1UW3TmH6Jx8%2F0OPdS8O7DRSBNJq2lSYTYxk%2FNlJoI8X9kGKGbVluxD3hsLxotrN2IB0IjChNxRjhaCkfLGeFoKRwtZ4SjpUiwQim1GzcbeQG1AFqJ0C8cGAAAAABJRU5ErkJggg%3D%3D)
-](https://drive.google.com/file/d/14v_VkQ3HAfnLcltgsVtZeOgxJAvctO6L/view?usp=share_link?alt=media&token=d6ef8f22-21a7-41e5-8ac7-d8afc5003be6)
+](https://drive.google.com/file/d/13zwKOt9ACVFFu3xJX_h_JugO6Ut0f5M0/view?usp=sharing)
 
 <br>
 
