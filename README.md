@@ -3,9 +3,9 @@
 <h4 style="font-weigth:bold" align="center">Rafa, the Portuguese code wizard. I turn coffee into code (and sometimes bugs). Full-stack MERN, Next, TypeScript, Sass magician. Don't expect me to fix your plumbing though.</p>
 
 <div align="center">
-  <img alt="Static Badge" src="https://img.shields.io/badge/Website%20-%20%2304a29f?style=for-the-badge&logo=netlify&logoColor=%23fff&link=https%3A%2F%2Frafa-lopes.netlify.app%2F">
-  <img alt="Static Badge" src="https://img.shields.io/badge/Linkedin%20-%20%230077b5?style=for-the-badge&logo=linkedin&logoColor=%23fff&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Frafael-lopes-software-developer%2F">
-  <img alt="Static Badge" src="https://img.shields.io/badge/Download%20CV%20-%20%23e55?style=for-the-badge&logo=read.cv&link=https%3A%2F%2Frafa-lopes.netlify.app%2FRafael_Lopes_Fullstack_Developer_CV.pdf">
+  <a href="https://rafa-lopes.netlify.app/"><img alt="Static Badge" src="https://img.shields.io/badge/Website%20-%20%2304a29f?style=for-the-badge&logo=netlify&logoColor=%23fff&link=https%3A%2F%2Frafa-lopes.netlify.app%2F"> </a>
+  <a href="https://www.linkedin.com/in/rafael-lopes-software-developer/"><img alt="Static Badge" src="https://img.shields.io/badge/Linkedin%20-%20%230077b5?style=for-the-badge&logo=linkedin&logoColor=%23fff&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Frafael-lopes-software-developer%2F"></a>
+  <a href="https://rafa-lopes.netlify.app/Rafael_Lopes_Fullstack_Developer_CV.pdf"><img alt="Static Badge" src="https://img.shields.io/badge/Download%20CV%20-%20%23e55?style=for-the-badge&logo=read.cv&link=https%3A%2F%2Frafa-lopes.netlify.app%2FRafael_Lopes_Fullstack_Developer_CV.pdf"></a>
 </div>
 
 <br>
