@@ -9,6 +9,10 @@ html {
 	font-weight: 400;
 	font-style: normal;
 
+	@mixin shadow() {
+		text-shadow: 1px 1px 10px #091617;
+	}
+
 	h1,
 	h2,
 	a,
@@ -17,6 +21,7 @@ html {
 		font-optical-sizing: auto;
 		font-weight: 700;
 		font-style: normal;
+		@include shadow();
 	}
 
 	h1 {
@@ -26,8 +31,11 @@ html {
 	.title {
 		font-size: 1.5rem;
 	}
-	a {
+	a,
+	p {
 		font-size: 1rem;
+
+		@include shadow();
 	}
 
 	@media screen and (min-width: 320px) {
