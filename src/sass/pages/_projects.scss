@@ -28,8 +28,8 @@
 			gap: 1em;
 
 			&__screenshot {
-				max-width: 80%;
-				zoom: 0.2;
+				max-width: 60%;
+				max-height: 50%;
 			}
 
 			footer {
@@ -40,11 +40,11 @@
 
 				font-size: 0.8em;
 
-				& > *:nth-child(1) {
+				.project-live {
 					filter: brightness(150%);
 				}
 
-				& > *:nth-child(2) {
+				.project-repo {
 					background: #222;
 				}
 			}

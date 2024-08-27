@@ -57,13 +57,17 @@ export default function Projects() {
 						))}
 
 						<footer>
-							<Button
-								link={e.link}
-								icon="website">
-								Live Website
-							</Button>
+							{e.link && (
+								<Button
+									link={e.link}
+									icon="website"
+									className="project-live">
+									Live Website
+								</Button>
+							)}
 							<Button
 								link={e.repo}
+								className="project-repo"
 								icon="github">
 								Github
 							</Button>

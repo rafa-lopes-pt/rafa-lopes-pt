@@ -244,8 +244,8 @@ html p {
   gap: 1em;
 }
 .projects__container .project__screenshot {
-  max-width: 80%;
-  zoom: 0.2;
+  max-width: 60%;
+  max-height: 50%;
 }
 .projects__container .project footer {
   display: flex;
@@ -254,10 +254,10 @@ html p {
   gap: 1em;
   font-size: 0.8em;
 }
-.projects__container .project footer > *:nth-child(1) {
+.projects__container .project footer .project-live {
   filter: brightness(150%);
 }
-.projects__container .project footer > *:nth-child(2) {
+.projects__container .project footer .project-repo {
   background: #222;
 }
 .projects nav {

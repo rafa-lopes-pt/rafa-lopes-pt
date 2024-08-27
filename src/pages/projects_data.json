@@ -2,8 +2,8 @@
 	{
 		"title": "Tea Shop",
 		"description": [
-			"This project is a comprehensive showcase of my full-stack development skills, demonstrating my ability to build robust and scalable web applications from the ground up.",
-			"Not only that but it also contains an extensive documentation and overview of the project in the github readme files!"
+			"This project is a showcase of my full-stack development skills.",
+			"Check the readme files for a complete technical overview."
 		],
 		"link": "https://tea-shop-rafa-lopes-pt.netlify.app/",
 		"repo": "https://github.com/rafa-lopes-pt/tea-shop",
@@ -17,5 +17,15 @@
 		"link": "https://ai-driving-simulation.netlify.app/",
 		"repo": "https://github.com/rafa-lopes-pt/ai-driving-project",
 		"img": "ai-driving-simulation.png"
+	},
+	{
+		"title": "More...",
+		"description": [
+			"Take a peek at my Github account and see what else I've worked on :)",
+			"Here you'll only find the tip of the iceberg!",
+			"PS: Credits to Platane for this amazing animation!"
+		],
+		"repo": "https://github.com/rafa-lopes-pt/",
+		"img": "github-user-contribution.svg"
 	}
 ]
