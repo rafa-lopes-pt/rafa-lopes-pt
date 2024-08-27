@@ -2,6 +2,8 @@ import { useRef } from "react";
 import Background from "./components/misc/Background";
 import ScrollSection from "./components/containers/ScrollSection";
 import Hero from "./pages/Hero";
+import About from "./pages/About";
+import Contacts from "./pages/Contacts";
 
 function App() {
 	const containerRef = useRef<HTMLDivElement>(null);
@@ -17,15 +19,20 @@ function App() {
 					<Hero />
 				</ScrollSection>
 
-				<ScrollSection className="about">
-					<h1>About</h1>
+				<ScrollSection
+					className="about"
+					backdrop>
+					<About />
 				</ScrollSection>
 
-				<ScrollSection className="tech-stack">
-					<h1>Prev Work</h1>
+				<ScrollSection
+					className="tech-stack"
+					backdrop>
+					<h1 id="projects">Projects</h1>
 				</ScrollSection>
-				<ScrollSection className="Contacts">
-					<h1>Contacts</h1>
+
+				<ScrollSection className="Contacts" >
+					<Contacts />
 				</ScrollSection>
 			</div>
 		</>
