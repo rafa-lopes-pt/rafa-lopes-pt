@@ -9,6 +9,9 @@ html {
 	font-weight: 400;
 	font-style: normal;
 
+	color: #ededed;
+	
+
 	@mixin shadow() {
 		text-shadow: 1px 1px 20px #091617;
 	}

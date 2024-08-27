@@ -43,7 +43,7 @@ body,
 }
 
 .scrollable {
-	$scrollable-section-h: 80svh;
+	$scrollable-section-h: 70svh;
 	$scrollable-section-p: 2rem;
 
 	display: grid;
@@ -60,16 +60,4 @@ body,
 	padding: calc($scrollable-section-h / 4 - $scrollable-section-p) 0rem;
 
 	@include scrollbar.hide();
-}
-
-h1,
-h2,
-h3,
-h4,
-p,
-span,
-a,
-body {
-	color: #ededed;
-	text-shadow: 1px 1px 10px black;
 }
