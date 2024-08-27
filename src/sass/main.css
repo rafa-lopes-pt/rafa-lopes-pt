@@ -274,28 +274,5 @@ html p {
   flex-direction: column;
   gap: 1em;
 }
-.contacts__list li {
-  background-color: rgba(13, 42, 46, 0.8666666667);
-  box-shadow: inset 2px 2px 20px 2px rgba(25, 61, 42, 0.9529411765), 2px 2px 20px 2px rgba(11, 34, 21, 0.9529411765);
-  padding: 0.5em 1em;
-  border-radius: 15px;
-  transition: all 0.25s ease;
-}
-.contacts__list li a {
-  display: flex;
-  gap: 1em;
-  color: inherit;
-  text-decoration: none;
-}
-.contacts__list li a span {
-  width: 100%;
-  text-align: center;
-}
-.contacts__list li:hover {
-  transform: scale(0.95);
-}
-.contacts__list li:active {
-  box-shadow: inset 2px 2px 20px 2px rgba(45, 87, 65, 0.9529411765), 2px 2px 20px 2px rgba(11, 34, 21, 0.9529411765);
-}
 
 /*# sourceMappingURL=main.css.map */
