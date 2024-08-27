@@ -1,0 +1,38 @@
+.hero {
+	position: relative;
+
+	place-content: center;
+	place-items: center;
+
+	&__header {
+		text-align: center;
+		font-size: 6vmax;
+
+		font-family: "Helvetica", cursive;
+		font-optical-sizing: auto;
+		font-style: normal;
+		line-height: 1.2em;
+		overflow-wrap: break-word;
+
+		&--2 {
+			font-size: 5vmax;
+		}
+	}
+
+	&__img {
+		margin: auto;
+		$size: 25vmin;
+		width: $size;
+		height: $size;
+
+		outline: 10px solid #edededee;
+
+		border-radius: 50%;
+		filter: grayscale(0.8) hue-rotate(110deg) contrast(0.8) brightness(0.85);
+
+		background: url("side.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}

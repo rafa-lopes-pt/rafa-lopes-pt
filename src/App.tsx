@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import Background from "./components/misc/Background";
 import ScrollSection from "./components/containers/ScrollSection";
+import Hero from "./pages/Hero";
 
 function App() {
 	const containerRef = useRef<HTMLDivElement>(null);
@@ -13,7 +14,7 @@ function App() {
 				className="scrollable"
 				ref={containerRef}>
 				<ScrollSection className="hero">
-					<h1>Hero</h1>
+					<Hero />
 				</ScrollSection>
 
 				<ScrollSection className="about">
