@@ -13,7 +13,7 @@
 		text-align: center;
 	}
 
-	transition: all 0.25s ease;
+	transition: transform 0.25s ease;//, background-color 0.2s ease;
 	&:hover {
 		transform: scale(0.95);
 	}
@@ -23,6 +23,10 @@
 
 	&--primary {
 		background-color: #2d5741f3;
+		box-shadow: inset 2px 2px 20px 2px #193d2af3, 2px 2px 20px 2px #0b2215f3;
+	}
+	&--secondary {
+		background-color: #a9e0c3f3;
 		box-shadow: inset 2px 2px 20px 2px #193d2af3, 2px 2px 20px 2px #0b2215f3;
 	}
 }

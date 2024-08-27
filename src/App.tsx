@@ -4,6 +4,7 @@ import ScrollSection from "./components/containers/ScrollSection";
 import Hero from "./pages/Hero";
 import About from "./pages/About";
 import Contacts from "./pages/Contacts";
+import Projects from "./pages/Projects";
 
 function App() {
 	const containerRef = useRef<HTMLDivElement>(null);
@@ -26,12 +27,12 @@ function App() {
 				</ScrollSection>
 
 				<ScrollSection
-					className="tech-stack"
+					className="projects"
 					backdrop>
-					<h1 id="projects">Projects</h1>
+					<Projects />
 				</ScrollSection>
 
-				<ScrollSection className="Contacts" >
+				<ScrollSection className="contacts">
 					<Contacts />
 				</ScrollSection>
 			</div>

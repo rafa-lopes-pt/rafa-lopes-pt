@@ -4,8 +4,9 @@
 @use "base/typography";
 //components
 @use "components/scroll-section";
+@use "components/buttons";
 //pages
 @use "pages/hero";
 @use "pages/about";
-
+@use "pages/projects";
 @use "pages/contacts";

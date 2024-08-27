@@ -14,13 +14,27 @@ export default function Button({
 	children,
 	icon,
 	variant = "primary",
+	onClick,
 }: {
 	link?: string;
+	onClick?: React.MouseEventHandler<HTMLButtonElement>;
 	className?: string;
 	children: ReactNode;
 	icon?: keyof typeof ICONS;
-	variant?: "primary" | "link";
+	variant?: "primary" | "secondary" | "link";
 }) {
+	if (onClick) {
+		return (
+			<button
+				className={`link link--${variant} ${className}`}
+				onClick={(e) => onClick(e)}>
+				{icon && <i className={ICONS[icon]} />}
+
+				<span>{children}</span>
+			</button>
+		);
+	}
+
 	return (
 		<a
 			className={`link link--${variant} ${className}`}

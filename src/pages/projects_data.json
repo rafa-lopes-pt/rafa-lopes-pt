@@ -1,0 +1,21 @@
+[
+	{
+		"title": "Tea Shop",
+		"description": [
+			"This project is a comprehensive showcase of my full-stack development skills, demonstrating my ability to build robust and scalable web applications from the ground up.",
+			"Not only that but it also contains an extensive documentation and overview of the project in the github readme files!"
+		],
+		"link": "https://tea-shop-rafa-lopes-pt.netlify.app/",
+		"repo": "https://github.com/rafa-lopes-pt/tea-shop",
+		"img": "tea-shop.png"
+	},
+	{
+		"title": "AI Driving Simulation",
+		"description": [
+			"A website that showcases a neural network learning to drive."
+		],
+		"link": "https://ai-driving-simulation.netlify.app/",
+		"repo": "https://github.com/rafa-lopes-pt/ai-driving-project",
+		"img": "ai-driving-simulation.png"
+	}
+]

@@ -1,0 +1,60 @@
+.projects {
+	padding: 1em;
+	overflow: hidden;
+	&__container {
+		// border: 1px solid red;
+		width: 100%;
+		height: 100%;
+
+		overflow-x: auto;
+		overflow-y: hidden;
+
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: 1fr;
+		grid-auto-columns: 100%;
+		grid-auto-flow: column;
+		gap: 1em;
+		padding: 0.5em;
+		.project {
+			// border: 1px solid yellowgreen;
+
+			display: flex;
+			flex-direction: column;
+			place-content: center;
+			place-items: center;
+			text-align: center;
+
+			gap: 1em;
+
+			&__screenshot {
+				max-width: 80%;
+				zoom: 0.2;
+			}
+
+			footer {
+				display: flex;
+				place-content: center;
+				place-items: center;
+				gap: 1em;
+
+				font-size: 0.8em;
+
+				& > *:nth-child(1) {
+					filter: brightness(150%);
+				}
+
+				& > *:nth-child(2) {
+					background: #222;
+				}
+			}
+		}
+	}
+	nav {
+		background-color: transparent;
+		display: flex;
+		gap: 1em;
+		max-width: 100%;
+		overflow-x: auto;
+	}
+}
