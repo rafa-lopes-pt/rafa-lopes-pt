@@ -6,6 +6,7 @@ const ICONS = {
 	email: "fa-solid fa-envelope",
 	stackoverflow: "fa-brands fa-stack-overflow",
 	website: "fa-solid fa-globe",
+	download: "fa-solid fa-download",
 } as const;
 
 export default function Button({
