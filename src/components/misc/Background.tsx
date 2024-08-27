@@ -6,13 +6,12 @@ export default function Background({
 }: {
 	containerRef: React.RefObject<HTMLDivElement>;
 }) {
-	const { scrollY, scrollYProgress } = useScroll({ container: containerRef });
+	const { scrollY } = useScroll({ container: containerRef });
 
 	const [imgPos, setImgPos] = useState({ x: "0", y: "0" });
 
 	useMotionValueEvent(scrollY, "change", (latest) => {
 		const val = -latest / 300;
-		console.log(val);
 		setImgPos({
 			//x: (val % 5 === 0 ? Math.cos(val) / 10 : Math.cos(val) / 5) + "%",
 			x: "0",
