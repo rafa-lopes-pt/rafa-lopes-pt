@@ -1,7 +1,9 @@
 //base
 @use "base/reset";
 @use "base/page";
+@use "base/typography";
 //components
 @use "components/scroll-section";
 //pages
 @use "pages/hero";
+@use "pages/about";

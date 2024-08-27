@@ -16,8 +16,10 @@
 
 	position: relative;
 
-	&--text {
+	&--backdrop {
 		background-color: #14211f11;
-		backdrop-filter: blur(10px);
+		backdrop-filter: blur(15px) saturate(90%) ;
 	}
+
+	// content
 }

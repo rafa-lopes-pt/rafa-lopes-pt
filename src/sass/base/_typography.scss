@@ -10,7 +10,7 @@ html {
 	font-style: normal;
 
 	@mixin shadow() {
-		text-shadow: 1px 1px 10px #091617;
+		text-shadow: 1px 1px 20px #091617;
 	}
 
 	h1,
@@ -34,7 +34,6 @@ html {
 	a,
 	p {
 		font-size: 1rem;
-
 		@include shadow();
 	}
 
