@@ -14,9 +14,16 @@ function App() {
 				ref={containerRef}>
 				<ScrollSection className="hero">
 					<h1>Hero</h1>
+				</ScrollSection>
+
+				<ScrollSection className="about">
 					<h1>About</h1>
-					<h1>TechStack</h1>
-					<h1>Prev work</h1>
+				</ScrollSection>
+
+				<ScrollSection className="tech-stack">
+					<h1>Prev Work</h1>
+				</ScrollSection>
+				<ScrollSection className="Contacts">
 					<h1>Contacts</h1>
 				</ScrollSection>
 			</div>

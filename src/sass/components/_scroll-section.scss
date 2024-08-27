@@ -1,0 +1,23 @@
+.scroll-section {
+	display: flex;
+	flex-direction: column;
+	place-content: center;
+	place-items: center;
+	gap: 2em;
+	color: #ededed;
+	width: 80%;
+
+	@media (hover: none) {
+		width: 100%;
+	}
+
+	border-radius: 15px;
+	padding: 2rem;
+
+	position: relative;
+
+	&--text {
+		background-color: #14211f11;
+		backdrop-filter: blur(10px);
+	}
+}

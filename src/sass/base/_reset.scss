@@ -1,0 +1,28 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	user-select: none;
+}
+
+//=========== remove highlight effect on mobile
+* {
+	-webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+*:focus {
+	outline: none !important;
+}
+
+//===========
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
