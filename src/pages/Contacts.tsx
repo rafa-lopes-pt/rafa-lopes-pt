@@ -1,30 +1,43 @@
+import Button from "../components/Buttons/Button";
+
 export default function Contacts() {
 	return (
 		<>
 			<ul className="contacts__list">
 				<li>
-					<a href="">
-						<i className="fa-brands fa-linkedin"></i>{" "}
-						<span>LinkedIn</span>
-					</a>
+					<Button
+						icon="linkedin"
+						link="https://www.linkedin.com/in/rafael-lopes-software-developer/">
+						LinkedIn
+					</Button>
 				</li>
 				<li>
-					<a href="">
-						<i className="fa-brands fa-github"></i>
-						<span>Github</span>
-					</a>
+					<Button
+						icon="github"
+						link="https://github.com/rafa-lopes-pt">
+						Github
+					</Button>
 				</li>
 				<li>
-					<a href="">
-						<i className="fa-solid fa-envelope"></i>
-						<span>Email</span>
-					</a>
+					<Button
+						icon="email"
+						link="mailto:rafalopessecond@gmail.com">
+						Email
+					</Button>
 				</li>
 				<li>
-					<a href="">
-						<i className="fa-brands fa-stack-overflow"></i>
-						<span>Stack Overflow</span>
-					</a>
+					<Button
+						icon="stackoverflow"
+						link="https://stackoverflow.com/users/22510505/rafa-lopes">
+						Stack Overflow
+					</Button>
+				</li>
+				<li>
+					<Button
+						icon="download"
+						link="./Rafael_Lopes_Fullstack_Developer_CV.pdf">
+						Download CV
+					</Button>
 				</li>
 			</ul>
 		</>
