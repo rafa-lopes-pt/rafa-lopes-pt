@@ -13,7 +13,7 @@ export default function Projects() {
 	useMotionValueEvent(scrollX, "change", (latest) => {
 		const projectWidth = ref.current
 			? // --------------------------------------  * 1.5 to account for the gap between... might fail for more than 3 tho
-			  (ref.current?.clientWidth / data.length) * 1.5
+			(ref.current?.clientWidth / data.length) * 1.5
 			: null;
 		if (!projectWidth) return;
 
