@@ -1,4 +1,13 @@
+@use "../utils/media-query" as media-query;
 .about {
+	@include media-query.mobile-landscape {
+		gap: 0.5em;
+		font-size: 0.75rem !important;
+		h2 {
+			font-size: 1.5em;
+		}
+	}
+
 	text-align: center;
 	a {
 		text-decoration: underline;

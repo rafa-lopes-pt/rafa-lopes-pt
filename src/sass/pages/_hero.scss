@@ -1,8 +1,13 @@
+@use "../utils/media-query" as media-query;
 .hero {
 	position: relative;
 
 	place-content: center;
 	place-items: center;
+
+	@include media-query.mobile-landscape{
+		display: grid;
+	}
 
 	&__header {
 		text-align: center;
@@ -19,10 +24,11 @@
 	&__img {
 		margin: auto;
 		$size: 25vmin;
+
 		width: $size;
 		height: $size;
 
-		outline: 10px solid #edededee;
+		outline: 0.5em solid #edededee;
 
 		border-radius: 50%;
 		filter: grayscale(0.8) hue-rotate(110deg) contrast(0.8) brightness(0.85);

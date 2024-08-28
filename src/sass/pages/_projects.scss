@@ -1,3 +1,5 @@
+@use "../utils/media-query" as media-query;
+
 .projects {
 	padding: 1em;
 	overflow: hidden;
@@ -25,14 +27,33 @@
 			place-items: center;
 			text-align: center;
 
+			@include media-query.mobile-landscape {
+				display: grid;
+				grid-template-areas:
+					"title title title"
+					"img text btn";
+
+				grid-template-columns: 1fr 1fr 1fr;
+				grid-template-rows: auto 1fr;
+				gap: 0.1em;
+			}
+
 			gap: 1em;
+
+			.title {
+				grid-area: title;
+			}
+
 
 			&__screenshot {
 				max-width: 60%;
 				max-height: 50%;
+				grid-area: img;
 			}
 
 			footer {
+				grid-area: btn;
+
 				display: flex;
 				place-content: center;
 				place-items: center;

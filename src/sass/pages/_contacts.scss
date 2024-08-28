@@ -1,9 +1,15 @@
+@use "../utils/media-query" as media-query;
 .contacts {
 	&__list {
 		font-size: 1.25rem;
+		
 		display: flex;
 		flex-direction: column;
 		gap: 1em;
 		
+		@include media-query.mobile-landscape {
+			font-size: 1rem;
+			gap: 0.3em;	
+		}
 	}
 }

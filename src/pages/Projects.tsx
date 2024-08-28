@@ -42,7 +42,11 @@ export default function Projects() {
 					<div
 						className="project"
 						key={"personal-project-" + i}>
-						<h1 id={e.title}>{e.title}</h1>
+						<h2
+							id={e.title}
+							className="title">
+							{e.title}
+						</h2>
 
 						<img
 							src={e.img}
@@ -50,13 +54,16 @@ export default function Projects() {
 							className="project__screenshot"
 						/>
 
-						{e.description.map((e, j) => (
-							<p
-								className=""
-								key={"personal-project-description-p-" + j}>
-								{e}
-							</p>
-						))}
+						<span>
+							{" "}
+							{e.description.map((e, j) => (
+								<p
+									className=""
+									key={"personal-project-description-p-" + j}>
+									{e}
+								</p>
+							))}
+						</span>
 
 						<footer>
 							{e.link && (

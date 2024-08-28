@@ -1,3 +1,4 @@
+@use "../utils/media-query" as media-query;
 .scroll-section {
 	display: flex;
 	flex-direction: column;
@@ -7,8 +8,12 @@
 	color: #ededed;
 	width: 80%;
 
-	@media (hover: none) {
+	@include media-query.mobile {
 		width: 100%;
+	}
+
+	@include media-query.mobile-landscape {
+		gap: 0.5em;
 	}
 
 	border-radius: 15px;
@@ -18,7 +23,7 @@
 
 	&--backdrop {
 		background-color: #14211f11;
-		backdrop-filter: blur(15px) saturate(90%) ;
+		backdrop-filter: blur(15px) saturate(90%);
 	}
 
 	// content
