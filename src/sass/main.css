@@ -281,7 +281,7 @@ html p {
   grid-auto-columns: 100%;
   grid-auto-flow: column;
   gap: 1em;
-  padding: 0.5em;
+  padding: 0rem 0.5em;
 }
 .projects__container .project {
   display: flex;
@@ -289,7 +289,7 @@ html p {
   place-content: center;
   place-items: center;
   text-align: center;
-  gap: 1em;
+  gap: 0.5em;
 }
 @media (hover: none) and (orientation: landscape) {
   .projects__container .project {
@@ -323,7 +323,6 @@ html p {
   background: #222;
 }
 .projects nav {
-  background-color: transparent;
   display: flex;
   gap: 1em;
   max-width: 100%;
