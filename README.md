@@ -1,26 +1,43 @@
-<h1 align="center">How You Doin' ? 😎</h1>
 
+
+
+<div align="center">
+
+
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Monospace&pause=1000&color=00BB20&center=true&vCenter=true&width=435&lines=Not+a+bug+.+.+.+it's+a+feature!)](https://git.io/typing-svg)
+
+
+
+
+
+
+  <div align="center">
+    
 <h4 style="font-weigth:bold" align="center">Rafa, the Portuguese code wizard. I turn coffee into code (and sometimes bugs). Full-stack MERN, Next, TypeScript, Sass magician. Don't expect me to fix your plumbing though.</p>
 
-<div align="center">
-  <a href="https://rafa-lopes.netlify.app/" target="_blank"><img alt="Static Badge" src="https://img.shields.io/badge/Website%20-%20%2304a29f?style=for-the-badge&logo=netlify&logoColor=%23fff&link=https%3A%2F%2Frafa-lopes.netlify.app%2F"> </a>
-  <a href="https://www.linkedin.com/in/rafael-lopes-software-developer/" target="_blank"><img alt="Static Badge" src="https://img.shields.io/badge/Linkedin%20-%20%230077b5?style=for-the-badge&logo=linkedin&logoColor=%23fff&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Frafael-lopes-software-developer%2F" ></a>
+
+<div>
+
+  <a href="https://rafa-lopes.netlify.app/" target="_blank"><img alt="Static Badge" src="https://img.shields.io/badge/Website%20-%20%2304a29f?style=for-the-badge&logo=netlify&logoColor=%23fff&link=https%3A%2F%2Frafa-lopes.netlify.app%2F">     </a>
+  
+  <a href="https://www.linkedin.com/in/rafael-lopes-software-developer/" target="_blank"><img alt="Static Badge" src="https://img.shields.io/badge/Linkedin%20-%20%230077b5?style=for-the-badge&logo=linkedin&logoColor=%23fff&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Frafael-lopes-software-developer%2F" ></a>  
+
   <a href="https://rafa-lopes.netlify.app/Rafael_Lopes_Fullstack_Developer_CV.pdf" target="_blank"><img alt="Static Badge" src="https://img.shields.io/badge/Download%20CV%20-%20%23e55?style=for-the-badge&logo=read.cv&link=https%3A%2F%2Frafa-lopes.netlify.app%2FRafael_Lopes_Fullstack_Developer_CV.pdf"></a>
+
 </div>
 
-<br>
+<table>
+<tr>
+  <td colspan=3 >
+  <h3 align="center">Tech Stack</h4>
+  </td>
+</tr>
 
-<h3 align="center">My Workspace</h4>
-<div align="center">
-  <img src="https://img.shields.io/badge/Linux-FCFCFC?style=for-the-badge&logo=linux&logoColor=black" />
-  <img alt="Static Badge" src="https://img.shields.io/badge/VS%20CODE%20-%230078d4?style=for-the-badge&logo=sam's%20club">
-  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" />
-  <img src="https://img.shields.io/badge/Miro-F7C922?style=for-the-badge&logo=Miro&logoColor=050036" />
-</div>
+<tr>
 
-<h3 align="center">Tech Stack</h4>
 
-<div align="center">
+<td align="center" colspan=3>
+
 
 <img align="center" style="display:inline" alt="mongo"  src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
 
@@ -50,22 +67,33 @@
 
 <img align="center" style="display:inline" alt="prisma"  src="https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white"/>
 
+</td>
+  
+</tr>
 
-<h3 align="center">About Me</h4>
+<tr>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Monospace&pause=1000&color=00BB20&center=true&vCenter=true&width=435&lines=Not+a+bug+.+.+.+it's+a+feature!)](https://git.io/typing-svg)
+<td align="center" colspan=3>
+      <a align="center" href="https://github.com/rafa-lopes-pt"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafa-lopes-pt&langs_count=10&title_color=ffa500&text_color=ffffff&icon_color=ffa500&bg_color=21262d&hide_border=true&locale=en&custom_title=Most%20%used%20%languages&layout=compact" alt="Top Languages" /></a>
+</td>
+</tr>
+    
 
-<p>  I'm Rafa, a 23-year-old Portuguese software developer with a passion for programing. Driven by
-                        curiosity, I delved into web development as a
-                        self-learner.</p>
+<tr>
+  <td colspan=3>
+<h3 align="center">My Workspace</h4>
+  </td>
+</tr>
 
-<p>My hobbies resolve around fixing things, taking care of my homestead garden, riding motorcycles and participating in local volunteering activities</p>
-<p>As a Fullstack Developer, I'm committed to learning and specializing on delivering stunning interfaces for different end-users, and contributing for the development of fast, secure and performant backends.</p>
-
-<p>My dream as a developer is to be able to contribute to the medical and educational fields, aiding in any way possible the research made by doctors, and helping other people learn in more efficiently</p>
-
-
-<p>Interested? Well let's chat then! I'm eager to meet you :)</p>
-<p>Visit my website to learn more about me, and to find more projects I've worked on!</p>
-
-<br/>
+<tr>
+  <td align="center">
+  <img src="https://img.shields.io/badge/Linux-FCFCFC?style=for-the-badge&logo=linux&logoColor=black" />
+  </td>
+  
+  <td align="center">
+  <img alt="Static Badge" src="https://img.shields.io/badge/VS%20CODE%20-%230078d4?style=for-the-badge&logo=sam's%20club">
+  </td>
+  
+</tr>
+  
+</table>
