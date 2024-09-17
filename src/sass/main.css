@@ -64,6 +64,10 @@ body,
   overflow: hidden;
 }
 
+body {
+  background-color: #101c1d;
+}
+
 #root {
   position: relative;
   width: 100%;
