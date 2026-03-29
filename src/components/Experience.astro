@@ -2,11 +2,6 @@
 import SectionHeader from "./SectionHeader.astro";
 import { timeline } from "../data/experience";
 
-const typeColors: Record<string, string> = {
-	work: "accent-green",
-	education: "accent-blue",
-	certification: "accent-yellow",
-};
 ---
 
 <section class="py-24" id="experience">
@@ -16,7 +11,7 @@ const typeColors: Record<string, string> = {
 		<div class="reveal relative ml-4 border-l border-bg-card pl-8 md:ml-8">
 			{
 				timeline.map((entry) => {
-					const color = typeColors[entry.type];
+					const color = entry.color;
 					return (
 						<div class="group relative mb-12 last:mb-0">
 							<div
@@ -49,7 +44,10 @@ const typeColors: Record<string, string> = {
 							{entry.tags && (
 								<div class="mt-2 flex flex-wrap gap-1.5">
 									{entry.tags.map((tag) => (
-										<span class="rounded-sm bg-bg-card px-2 py-0.5 font-mono text-xs text-accent-cyan">
+										<span
+											class="rounded-sm bg-bg-card px-2 py-0.5 font-mono text-xs"
+											style={`color: var(--color-${color})`}
+										>
 											{tag}
 										</span>
 									))}
