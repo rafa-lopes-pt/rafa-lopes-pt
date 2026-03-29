@@ -1,0 +1,65 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "../components/Header.astro";
+import Hero from "../components/Hero.astro";
+import About from "../components/About.astro";
+import AIPhilosophy from "../components/AIPhilosophy.astro";
+import Projects from "../components/Projects.astro";
+import Experience from "../components/Experience.astro";
+import Contact from "../components/Contact.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<BaseLayout>
+	<Header />
+	<main id="main">
+		<Hero />
+		<About />
+		<AIPhilosophy />
+		<Projects />
+		<Experience />
+		<Contact />
+	</main>
+	<Footer />
+
+	<script>
+		// Scroll reveal
+		const revealObserver = new IntersectionObserver(
+			(entries) => {
+				entries.forEach((entry) => {
+					if (entry.isIntersecting) {
+						entry.target.classList.add("visible");
+						revealObserver.unobserve(entry.target);
+					}
+				});
+			},
+			{ threshold: 0.1 },
+		);
+		document.querySelectorAll(".reveal").forEach((el) => revealObserver.observe(el));
+
+		// Nav scroll-spy
+		const sections = document.querySelectorAll("section[id]");
+		const navLinks = document.querySelectorAll(".nav-link");
+
+		const spyObserver = new IntersectionObserver(
+			(entries) => {
+				entries.forEach((entry) => {
+					if (entry.isIntersecting) {
+						navLinks.forEach((link) => {
+							link.classList.toggle(
+								"text-accent-blue",
+								link.getAttribute("href") === `#${entry.target.id}`,
+							);
+							link.classList.toggle(
+								"text-text-muted",
+								link.getAttribute("href") !== `#${entry.target.id}`,
+							);
+						});
+					}
+				});
+			},
+			{ rootMargin: "-40% 0px -50% 0px" },
+		);
+		sections.forEach((s) => spyObserver.observe(s));
+	</script>
+</BaseLayout>

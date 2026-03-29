@@ -1,0 +1,101 @@
+---
+const navItems = [
+	{ label: "About", href: "#about" },
+	{ label: "Personal Projects", href: "#projects" },
+	{ label: "Experience", href: "#experience" },
+	{ label: "Contact", href: "#contact" },
+];
+---
+
+<header
+	class="fixed top-0 right-0 left-0 z-40 border-b border-bg-card bg-bg-secondary/80 backdrop-blur-md"
+>
+	<nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+		<a
+			href="#"
+			class="font-mono text-lg font-bold transition-colors hover:text-accent-blue"
+			aria-label="Home"
+		>
+			<span class="text-accent-blue">&lt;</span><span class="text-text-heading"
+				>Rafa</span
+			>
+			<span class="text-accent-blue">/&gt;</span>
+			<span class="ml-2 text-xs font-normal text-text-muted opacity-60">March 2026</span>
+		</a>
+
+		<!-- Desktop nav -->
+		<ul class="hidden gap-8 md:flex">
+			{
+				navItems.map(({ label, href }) => (
+					<li>
+						<a
+							href={href}
+							class="nav-link font-mono text-sm text-text-muted transition-colors hover:text-accent-blue"
+						>
+							{label}
+						</a>
+					</li>
+				))
+			}
+		</ul>
+
+		<!-- Mobile hamburger (CSS-only using :has()) -->
+		<input type="checkbox" id="nav-toggle" class="peer hidden" aria-hidden="true" />
+		<label
+			for="nav-toggle"
+			class="relative z-50 flex h-6 w-6 cursor-pointer flex-col justify-center gap-1.5 md:hidden"
+			aria-label="Toggle navigation menu"
+		>
+			<span class="hamburger-line origin-center transition-all duration-300"></span>
+			<span class="hamburger-line origin-center transition-all duration-300"></span>
+			<span class="hamburger-line origin-center transition-all duration-300"></span>
+		</label>
+
+		<!-- Mobile menu overlay -->
+		<div
+			class="mobile-menu invisible fixed inset-0 top-0 flex items-center justify-center bg-bg-secondary/95 opacity-0 backdrop-blur-md transition-all duration-300 md:hidden"
+		>
+			<ul class="flex flex-col items-center gap-8">
+				{
+					navItems.map(({ label, href }) => (
+						<li>
+							<a
+								href={href}
+								class="font-mono text-2xl text-text-heading transition-colors hover:text-accent-blue"
+								onclick="document.getElementById('nav-toggle').checked = false"
+							>
+								{label}
+							</a>
+						</li>
+					))
+				}
+			</ul>
+		</div>
+	</nav>
+</header>
+
+<style>
+	.hamburger-line {
+		display: block;
+		height: 2px;
+		width: 100%;
+		background-color: var(--color-text-body);
+	}
+
+	#nav-toggle:checked ~ label .hamburger-line:nth-child(1) {
+		transform: translateY(8px) rotate(45deg);
+	}
+
+	#nav-toggle:checked ~ label .hamburger-line:nth-child(2) {
+		opacity: 0;
+	}
+
+	#nav-toggle:checked ~ label .hamburger-line:nth-child(3) {
+		transform: translateY(-8px) rotate(-45deg);
+	}
+
+	#nav-toggle:checked ~ .mobile-menu {
+		visibility: visible;
+		opacity: 1;
+	}
+</style>

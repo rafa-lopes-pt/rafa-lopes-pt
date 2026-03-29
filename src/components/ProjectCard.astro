@@ -1,0 +1,78 @@
+---
+import type { Project } from "../data/projects";
+import TechBadge from "./TechBadge.astro";
+
+interface Props {
+	project: Project;
+}
+
+const { project } = Astro.props;
+---
+
+<article class="group overflow-hidden rounded-lg border border-bg-card bg-bg-card transition-all duration-300 hover:border-accent-blue/30 hover:bg-bg-card-hover">
+	<!-- Title bar (editor window style) -->
+	<div class="flex items-center gap-2 border-b border-bg-secondary bg-bg-secondary px-4 py-2.5">
+		<div class="flex gap-1.5" aria-hidden="true">
+			<span class="h-3 w-3 rounded-full bg-accent-red"></span>
+			<span class="h-3 w-3 rounded-full bg-accent-yellow"></span>
+			<span class="h-3 w-3 rounded-full bg-accent-green"></span>
+		</div>
+		<span class="font-mono text-xs text-text-muted">{project.filename}</span>
+	</div>
+
+	<!-- Card body -->
+	<div class="p-5">
+		<h3 class="mb-3 font-mono text-lg font-bold text-text-heading">
+			{project.title}
+		</h3>
+
+		<p class="mb-4 text-sm leading-relaxed text-text-body">
+			{project.description}
+		</p>
+
+		<!-- Tech tags -->
+		<div class="mb-4 flex flex-wrap gap-1.5">
+			{project.tech.map((t) => <TechBadge name={t} />)}
+		</div>
+
+		<!-- Links -->
+		<div class="flex gap-4">
+			{
+				project.github && (
+					<a
+						href={project.github}
+						target="_blank"
+						rel="noopener noreferrer"
+						class="font-mono text-xs text-accent-blue transition-colors hover:text-accent-cyan"
+					>
+						GitHub
+					</a>
+				)
+			}
+			{
+				project.live && (
+					<a
+						href={project.live}
+						target="_blank"
+						rel="noopener noreferrer"
+						class="font-mono text-xs text-accent-green transition-colors hover:text-accent-cyan"
+					>
+						Live Demo
+					</a>
+				)
+			}
+			{
+				project.npm && (
+					<a
+						href={project.npm}
+						target="_blank"
+						rel="noopener noreferrer"
+						class="font-mono text-xs text-accent-red transition-colors hover:text-accent-cyan"
+					>
+						npm
+					</a>
+				)
+			}
+		</div>
+	</div>
+</article>

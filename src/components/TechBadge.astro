@@ -1,0 +1,15 @@
+---
+interface Props {
+	name: string;
+	color?: string;
+}
+
+const { name, color = "accent-blue" } = Astro.props;
+---
+
+<span
+	class="inline-block rounded-sm border border-bg-card bg-bg-secondary px-2.5 py-0.5 font-mono text-xs font-medium"
+	style={`color: var(--color-${color})`}
+>
+	{name}
+</span>

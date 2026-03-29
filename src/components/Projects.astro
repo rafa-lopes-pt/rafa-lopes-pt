@@ -1,0 +1,15 @@
+---
+import SectionHeader from "./SectionHeader.astro";
+import ProjectCard from "./ProjectCard.astro";
+import { projects } from "../data/projects";
+---
+
+<section class="bg-bg-secondary py-24" id="projects">
+	<div class="mx-auto max-w-6xl px-6">
+		<SectionHeader title="Personal Projects" />
+
+		<div class="reveal grid gap-6 md:grid-cols-2">
+			{projects.map((project) => <ProjectCard project={project} />)}
+		</div>
+	</div>
+</section>

@@ -1,0 +1,64 @@
+---
+import SectionHeader from "./SectionHeader.astro";
+import { timeline } from "../data/experience";
+
+const typeColors: Record<string, string> = {
+	work: "accent-green",
+	education: "accent-blue",
+	certification: "accent-yellow",
+};
+---
+
+<section class="py-24" id="experience">
+	<div class="mx-auto max-w-6xl px-6">
+		<SectionHeader title="Experience" />
+
+		<div class="reveal relative ml-4 border-l border-bg-card pl-8 md:ml-8">
+			{
+				timeline.map((entry) => {
+					const color = typeColors[entry.type];
+					return (
+						<div class="group relative mb-12 last:mb-0">
+							<div
+								class="absolute -left-[2.56rem] top-1 h-4 w-4 rounded-full border-2 border-bg-primary"
+								style={`background-color: var(--color-${color})`}
+								aria-hidden="true"
+							/>
+
+							<span class="mb-1 inline-block font-mono text-xs text-text-muted">
+								{entry.period}
+							</span>
+
+							<h3 class="font-mono text-lg font-bold text-text-heading">
+								{entry.title}
+							</h3>
+
+							<p
+								class="mb-2 font-mono text-sm"
+								style={`color: var(--color-${color})`}
+							>
+								{entry.organization}
+							</p>
+
+							{entry.description && (
+								<p class="max-w-xl text-sm text-text-body">
+									{entry.description}
+								</p>
+							)}
+
+							{entry.tags && (
+								<div class="mt-2 flex flex-wrap gap-1.5">
+									{entry.tags.map((tag) => (
+										<span class="rounded-sm bg-bg-card px-2 py-0.5 font-mono text-xs text-accent-cyan">
+											{tag}
+										</span>
+									))}
+								</div>
+							)}
+						</div>
+					);
+				})
+			}
+		</div>
+	</div>
+</section>

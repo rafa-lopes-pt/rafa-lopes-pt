@@ -1,0 +1,46 @@
+---
+import SectionHeader from "./SectionHeader.astro";
+
+const links = [
+	{
+		command: "email",
+		value: "rafael.lopes@umnsolutions.net",
+		href: "mailto:rafael.lopes@umnsolutions.net",
+	},
+	{
+		command: "github",
+		value: "rafa-lopes-pt",
+		href: "https://github.com/rafa-lopes-pt",
+	},
+	{
+		command: "linkedin",
+		value: "rafael-lopes-software-developer",
+		href: "https://linkedin.com/in/rafael-lopes-software-developer",
+	},
+];
+---
+
+<section class="bg-bg-secondary py-24" id="contact">
+	<div class="mx-auto max-w-6xl px-6">
+		<SectionHeader title="Contact" />
+
+		<div class="reveal mx-auto max-w-lg space-y-4 rounded-lg border border-bg-card bg-bg-primary p-6">
+			{
+				links.map(({ command, value, href }) => (
+					<a
+						href={href}
+						target={command !== "email" ? "_blank" : undefined}
+						rel={command !== "email" ? "noopener noreferrer" : undefined}
+						class="group flex items-baseline gap-2 font-mono text-sm transition-colors hover:text-accent-blue"
+					>
+						<span class="text-accent-green select-none">$</span>
+						<span class="text-accent-purple">{command}</span>
+						<span class="text-text-body group-hover:text-accent-blue">
+							{value}
+						</span>
+					</a>
+				))
+			}
+		</div>
+	</div>
+</section>

@@ -1,0 +1,77 @@
+---
+import SectionHeader from "./SectionHeader.astro";
+import TechBadge from "./TechBadge.astro";
+import { skillCategories } from "../data/skills";
+---
+
+<section class="py-24" id="about">
+	<div class="mx-auto max-w-6xl px-6">
+		<SectionHeader title="About Me" />
+
+		<div class="reveal grid gap-12 md:grid-cols-2">
+			<!-- Bio -->
+			<div class="space-y-4 text-text-body">
+				<p>
+					I'm a software developer based in Portugal. I started out building
+					web applications from the ground up -- from database design to
+					pixel-perfect frontends -- but lately I've been delving into
+					operating systems, languages like Rust, and networks.
+				</p>
+				<p>
+					Currently at <a
+						href="https://umnsolutions.net/en"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="text-accent-blue hover:underline">UMN Solutions</a
+					>, where our team delivers projects for clients like BNP Paribas
+					with a people-first mindset -- technology in service of humans.
+				</p>
+				<p>
+					I'm mostly self-taught -- I started coding and freelancing long
+					before any formal training. Free platforms like <a
+						href="https://www.freecodecamp.org"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="text-accent-yellow hover:underline">freeCodeCamp</a
+					> shaped my foundations, later complemented by bootcamps and
+					<a
+						href="https://cs50.harvard.edu/x/"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="text-accent-red hover:underline">Harvard's CS50</a>. What drives
+					me most is a deep passion for learning new things and exploring the
+					edges of what I can build.
+				</p>
+				<p>
+					Currently applying to
+					<a
+						href="https://tecnico.ulisboa.pt/en/"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="text-accent-purple hover:underline"
+						>IST (Instituto Superior Tecnico)</a
+					> to deepen my CS foundations and combine academic rigor with
+					industry experience.
+				</p>
+			</div>
+
+			<!-- Tech Stack -->
+			<div class="space-y-6">
+				{
+					skillCategories.map((category) => (
+						<div>
+							<h3 class="mb-3 font-mono text-sm font-bold text-text-muted">
+								{`// ${category.label}`}
+							</h3>
+							<div class="flex flex-wrap gap-2">
+								{category.skills.map((skill) => (
+									<TechBadge name={skill.name} color={skill.color} />
+								))}
+							</div>
+						</div>
+					))
+				}
+			</div>
+		</div>
+	</div>
+</section>

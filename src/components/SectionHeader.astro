@@ -1,0 +1,17 @@
+---
+interface Props {
+	title: string;
+	id?: string;
+}
+
+const { title, id } = Astro.props;
+---
+
+<div class="mb-10 flex items-center gap-4" id={id}>
+	<h2 class="font-mono text-2xl font-bold text-text-muted md:text-3xl">
+		<span class="text-accent-green">//</span>
+		{" "}
+		<span class="text-text-heading">{title}</span>
+	</h2>
+	<div class="hidden h-px flex-1 bg-bg-card md:block"></div>
+</div>

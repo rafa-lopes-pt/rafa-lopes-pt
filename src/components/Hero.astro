@@ -1,0 +1,98 @@
+---
+const lineNumbers = Array.from({ length: 8 }, (_, i) => i + 1);
+---
+
+<section class="relative flex min-h-screen items-center overflow-hidden" id="hero">
+	<div class="mx-auto flex w-full max-w-6xl px-6 pt-20">
+		<!-- Line numbers gutter -->
+		<div
+			class="mr-6 hidden select-none border-r border-bg-card pr-4 font-mono text-sm leading-[2.4rem] text-text-muted/40 md:block"
+			aria-hidden="true"
+		>
+			{lineNumbers.map((n) => <div>{n}</div>)}
+		</div>
+
+		<!-- Content -->
+		<div class="flex-1 py-12">
+			<p class="mb-4 font-mono text-accent-green">const greeting =</p>
+			<h1 class="mb-2 font-mono text-4xl font-bold text-text-heading md:text-6xl">
+				Hi, I'm Rafa
+			</h1>
+
+			<p class="mb-6 h-8 font-mono text-lg text-accent-yellow md:text-xl">
+				&gt; <span id="typewriter"></span><span class="inline-block w-[3px] animate-[blink_1s_step-end_infinite] bg-accent-yellow align-baseline">&nbsp;</span>
+			</p>
+
+			<p class="mb-3 max-w-xl text-xl text-text-body">
+				Software developer at
+				<a href="https://umnsolutions.net/en" target="_blank" rel="noopener noreferrer" class="text-accent-blue hover:underline">UMN Solutions</a> --
+				<span class="italic text-text-muted">"Technology In Service of Humans"</span>.
+			</p>
+			<p class="mb-10 max-w-xl text-lg text-text-body">
+				It's not about writing code lines... it's about engineering solutions
+				that allow users to spend their time finding better problems!
+			</p>
+
+			<div class="flex flex-wrap gap-4">
+				<a
+					href="#projects"
+					class="inline-block rounded bg-accent-green px-6 py-3 font-mono text-sm font-bold text-bg-primary transition-all hover:brightness-110"
+				>
+					View Projects
+				</a>
+				<a
+					href="#contact"
+					class="inline-block rounded border border-accent-purple px-6 py-3 font-mono text-sm font-bold text-accent-purple transition-all hover:bg-accent-purple/10"
+				>
+					Get in Touch
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<script>
+	const phrases = [
+		"impact over profit",
+		"turning coffee into code",
+		"not your typical keyboard geek",
+		"building with purpose",
+	];
+	const el = document.getElementById("typewriter")!;
+	const typeDelay = 80;
+	const deleteDelay = 40;
+	const pauseAfterType = 2000;
+	const pauseAfterDelete = 500;
+	let phraseIndex = 0;
+
+	async function sleep(ms: number) {
+		return new Promise((r) => setTimeout(r, ms));
+	}
+
+	async function typePhrase(text: string) {
+		for (let i = 0; i <= text.length; i++) {
+			el.textContent = text.slice(0, i);
+			await sleep(typeDelay);
+		}
+	}
+
+	async function deletePhrase(text: string) {
+		for (let i = text.length; i >= 0; i--) {
+			el.textContent = text.slice(0, i);
+			await sleep(deleteDelay);
+		}
+	}
+
+	async function loop() {
+		while (true) {
+			const phrase = phrases[phraseIndex];
+			await typePhrase(phrase);
+			await sleep(pauseAfterType);
+			await deletePhrase(phrase);
+			await sleep(pauseAfterDelete);
+			phraseIndex = (phraseIndex + 1) % phrases.length;
+		}
+	}
+
+	loop();
+</script>
